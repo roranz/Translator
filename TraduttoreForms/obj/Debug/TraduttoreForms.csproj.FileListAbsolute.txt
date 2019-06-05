@@ -1,0 +1,13 @@
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\bin\Debug\TraduttoreForms.exe.config
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\bin\Debug\TraduttoreForms.exe
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\bin\Debug\TraduttoreForms.pdb
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.csprojAssemblyReference.cache
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.Form1.resources
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.Properties.Resources.resources
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.csproj.GenerateResource.cache
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.csproj.CoreCompileInputs.cache
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.exe
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.pdb
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.csproj.CopyComplete
