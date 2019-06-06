@@ -3,17 +3,14 @@ using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 using System.Net;
-using System.Net.Http;
 using Newtonsoft.Json;
 using System.Text;
-using System.Collections.Generic;
 
 namespace TraduttoreForms
 {
     public partial class Form1 : Form
     {
         String api = "";
-        bool tradotto = false;
 
         public Form1()
         {
@@ -59,7 +56,6 @@ namespace TraduttoreForms
         private void apriToolStripMenuItem_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
-            tradotto = false;
         }
 
         private void salvaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -85,9 +81,9 @@ namespace TraduttoreForms
             char ch;
             StreamWriter myStream = File.CreateText(@"traduzione.txt");
             myStream.Write(richTextBox2.Text);
+            myStream.Write(" ");
             myStream.Close();
             StreamReader fileTrad = File.OpenText(@"traduzione.txt");
-
             saveFileDialog2.ShowDialog();
             StreamWriter str = File.CreateText(saveFileDialog2.FileName);
             while (!file.EndOfStream)
@@ -106,32 +102,45 @@ namespace TraduttoreForms
                         {
                             while (ch != '\n')
                             {
-                                ch = (char)fileTrad.Read();
+                                if (!fileTrad.EndOfStream)
+                                    ch = (char)fileTrad.Read();
+                                else
+                                {
+                                    str.Write("\n");
+                                    break;
+                                }
                                 if (ch == ' ')
                                 {
-                                    ch = (char)fileTrad.Read();
+                                    if (!fileTrad.EndOfStream)
+                                        ch = (char)fileTrad.Read();
                                     if (ch != '\\')
                                         str.Write(' ');
                                     else
                                     {
                                         str.Write(ch);
-                                        ch = (char)fileTrad.Read();
-                                        str.Write(ch);
-                                        ch = (char)fileTrad.Read();
-                                        ch = (char)fileTrad.Read();
+                                        if (!fileTrad.EndOfStream)
+                                        {
+                                            ch = (char)fileTrad.Read();
+                                            str.Write(ch);
+                                        }
+                                        if (!fileTrad.EndOfStream)
+                                            ch = (char)fileTrad.Read();
+                                        if (!fileTrad.EndOfStream)
+                                            ch = (char)fileTrad.Read();
                                     }
                                 }
-                                str.Write(ch);
+                                if (!fileTrad.EndOfStream)
+                                    str.Write(ch);
                             }
                             file.ReadLine();
                         }
                     }
                 }
             }
+            fileTrad.Close();
             if (!esiste)
                 File.Delete("traduzione.txt");
             file.Close();
-            fileTrad.Close();
             str.Close();
         }
 
@@ -198,7 +207,6 @@ namespace TraduttoreForms
         }
         public void traduciToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            tradotto = false;
             if(api == "")
             {
                 api = InputBox("Inserisci l'api da https://translate.yandex.com/developers/keys", "API");
@@ -216,13 +224,12 @@ namespace TraduttoreForms
                     {
                         if (result[i].Length > 3)
                         {
-                        MessageBox.Show("owo");
+                        //MessageBox.Show("Blocco " + i + " tradotto" );
                         string link = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=" + api + "&text=" + result[i] + "&lang=it";
                         string response = webClient.DownloadString(link);
                         trad += JsonConvert.DeserializeObject<Messaggio>(response).getText();
                         }
                     }
-                    tradotto = true;
                 }
                 catch (Exception err)
                 {
@@ -230,7 +237,6 @@ namespace TraduttoreForms
                     return;
                 }
                 richTextBox2.Text = trad;
-                tradotto = true;
 
 
             }
@@ -298,8 +304,6 @@ namespace TraduttoreForms
         private void inniettaTraduzioneToolStripMenuItem_Click(object sender, EventArgs e)
         {
             StreamReader file;
-            if (!tradotto)
-                return;
             if (richTextBox1.Text.Length > 5)
             {
                 Inseritore(file = new StreamReader(openFileDialog1.FileName));

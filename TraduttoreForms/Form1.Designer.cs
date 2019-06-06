@@ -63,7 +63,7 @@
             this.richTextBox1.BackColor = System.Drawing.SystemColors.Window;
             this.richTextBox1.DetectUrls = false;
             this.richTextBox1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(12, 116);
+            this.richTextBox1.Location = new System.Drawing.Point(16, 116);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(500, 532);
@@ -97,21 +97,21 @@
             // traduciToolStripMenuItem
             // 
             this.traduciToolStripMenuItem.Name = "traduciToolStripMenuItem";
-            this.traduciToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.traduciToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.traduciToolStripMenuItem.Text = "Traduci";
             this.traduciToolStripMenuItem.Click += new System.EventHandler(this.traduciToolStripMenuItem_Click);
             // 
             // salvaToolStripMenuItem
             // 
             this.salvaToolStripMenuItem.Name = "salvaToolStripMenuItem";
-            this.salvaToolStripMenuItem.Size = new System.Drawing.Size(107, 20);
+            this.salvaToolStripMenuItem.Size = new System.Drawing.Size(108, 20);
             this.salvaToolStripMenuItem.Text = "Salva Traduzione";
             this.salvaToolStripMenuItem.Click += new System.EventHandler(this.salvaToolStripMenuItem_Click);
             // 
             // inniettaTraduzioneToolStripMenuItem
             // 
             this.inniettaTraduzioneToolStripMenuItem.Name = "inniettaTraduzioneToolStripMenuItem";
-            this.inniettaTraduzioneToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
+            this.inniettaTraduzioneToolStripMenuItem.Size = new System.Drawing.Size(121, 20);
             this.inniettaTraduzioneToolStripMenuItem.Text = "Innietta Traduzione";
             this.inniettaTraduzioneToolStripMenuItem.Click += new System.EventHandler(this.inniettaTraduzioneToolStripMenuItem_Click);
             // 
@@ -154,10 +154,10 @@
             // Subtitle
             // 
             this.Subtitle.AutoSize = true;
-            this.Subtitle.Font = new System.Drawing.Font("Oswald", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Subtitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Subtitle.Location = new System.Drawing.Point(377, 34);
             this.Subtitle.Name = "Subtitle";
-            this.Subtitle.Size = new System.Drawing.Size(419, 71);
+            this.Subtitle.Size = new System.Drawing.Size(456, 55);
             this.Subtitle.TabIndex = 5;
             this.Subtitle.Text = "Subtitles Translator";
             this.Subtitle.Click += new System.EventHandler(this.label1_Click);

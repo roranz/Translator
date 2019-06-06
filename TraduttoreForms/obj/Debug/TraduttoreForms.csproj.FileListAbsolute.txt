@@ -11,3 +11,17 @@ C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\Traduttor
 C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\bin\Debug\Newtonsoft.Json.dll
 C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\bin\Debug\Newtonsoft.Json.xml
 C:\Users\RoranZ\source\repos\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.csproj.CopyComplete
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.Form1.resources
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.Properties.Resources.resources
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.csproj.GenerateResource.cache
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.csproj.CoreCompileInputs.cache
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.exe
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.pdb
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\bin\Debug\TraduttoreForms.exe.config
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\bin\Debug\TraduttoreForms.exe
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\bin\Debug\TraduttoreForms.pdb
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\obj\Debug\TraduttoreForms.csproj.CopyComplete
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\bin\Debug\TraduttoreForms.exe.CodeAnalysisLog.xml
+C:\Users\studentelig\Desktop\Owo\TraduttoreForms\TraduttoreForms\bin\Debug\TraduttoreForms.exe.lastcodeanalysissucceeded
