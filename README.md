@@ -1,2 +1,2 @@
 # Subtitles Translator
-A simple Visual C# .ass (aegisub) subtitles traslator used for Anime
+A simple Visual C# .ass (aegisub) subtitles traslator for anime series.
