@@ -1,2 +1,4 @@
-# Aegisub Subtitles Translator
-A simple Visual C# .ass (aegisub) subtitles traslator for anime series.
+# Aegisub Subtitles Translator (OLD and DEPRECATED)
+A simple Visual C# .ass (aegisub) subtitles traslator mainly for anime series.
+
+Branch is totally a mess, API is no longer working. Maybe i'll update everything in the future, who knows...
